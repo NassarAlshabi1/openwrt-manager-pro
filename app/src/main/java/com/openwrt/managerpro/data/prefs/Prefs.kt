@@ -80,7 +80,7 @@ class ProfileStore @Inject constructor(
         val prefs = context.dataStore.data.first()
         val url = prefs[Keys.BASE_URL] ?: return null
         val user = prefs[Keys.USERNAME] ?: "root"
-        val pass = securePrefs().getString("router_password") ?: ""
+        val pass = securePrefs().getString("router_password", "") ?: ""
         return RouterProfile(url, user, pass)
     }
 

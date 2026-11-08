@@ -36,7 +36,7 @@ const val EMPTY_SESSION = "00000000000000000000000000000000"
 
 // ---------- JSON helpers ----------
 
-fun JsonElement.asObj(): JsonObject = this as? JsonObject ?: JsonObject(emptyMap())
+fun JsonElement?.asObj(): JsonObject = this as? JsonObject ?: JsonObject(emptyMap())
 
 fun JsonObject.str(key: String, default: String = ""): String =
     (this[key] as? JsonPrimitive)?.contentOrNull ?: default
