@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OpenWrt Manager Pro</string>
+
+    <string name="nav_dashboard">لوحة التحكم</string>
+    <string name="nav_devices">الأجهزة</string>
+    <string name="nav_diagnostics">التشخيص</string>
+    <string name="nav_firmware">النظام</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <string name="refresh">تحديث</string>
+    <string name="error_generic">خطأ في الاتصال</string>
+
+    <string name="dash_uptime">مدة التشغيل</string>
+    <string name="dash_memory">الذاكرة</string>
+    <string name="dash_temperature">الحرارة</string>
+    <string name="dash_devices_online">الأجهزة المتصلة</string>
+    <string name="dash_load">حمل المعالج</string>
+    <string name="dash_load_value">١د %1$s · ٥د %2$s · ١٥د %3$s</string>
+    <string name="dash_network">الشبكة</string>
+    <string name="dash_status">الحالة</string>
+    <string name="dash_online">متصل</string>
+    <string name="dash_offline">غير متصل</string>
+    <string name="dash_wan_ip">عنوان WAN</string>
+    <string name="dash_gateway">البوابة</string>
+    <string name="dash_dns">خوادم DNS</string>
+    <string name="dash_hostname">اسم الجهاز</string>
+    <string name="dash_kernel">نواة النظام</string>
+
+    <string name="devices_count">%1$d جهاز</string>
+    <string name="devices_all">الكل</string>
+    <string name="devices_wireless">لاسلكي</string>
+    <string name="devices_wired">سلكي</string>
+    <string name="devices_empty">لا توجد أجهزة</string>
+    <string name="devices_unknown_host">جهاز غير معروف</string>
+    <string name="devices_unknown_vendor">مصنّع غير معروف</string>
+
+    <string name="diag_title">التشخيص الذكي</string>
+    <string name="diag_subtitle">فحص صحي شامل للراوتر: المعالج، الذاكرة، التخزين، الحرارة، الإنترنت، DNS، قنوات الواي فاي، الـMesh، الأمان والسجلات.</string>
+    <string name="diag_run">ابدأ الفحص</string>
+    <string name="diag_running">جارٍ الفحص…</string>
+    <string name="diag_score">درجة الصحة</string>
+    <string name="diag_not_run">لم يتم الفحص بعد</string>
+    <string name="diag_duration">اكتمل خلال %1$s ثانية</string>
+    <string name="diag_check_cpu">حمل المعالج</string>
+    <string name="diag_check_memory">الذاكرة</string>
+    <string name="diag_check_storage">التخزين</string>
+    <string name="diag_check_temperature">الحرارة</string>
+    <string name="diag_check_wan">الإنترنت (WAN)</string>
+    <string name="diag_check_dns">تحليل DNS</string>
+    <string name="diag_check_wifi">قنوات الواي فاي</string>
+    <string name="diag_check_mesh">شبكة الـMesh</string>
+    <string name="diag_check_wifi_security">أمان الواي فاي</string>
+    <string name="diag_check_firewall">أمان الجدار الناري</string>
+    <string name="diag_check_logs">فحص سجل النظام</string>
+
+    <string name="fw_title">نظام التشغيل</string>
+    <string name="fw_subtitle">يقارن إصدار OpenWrt المثبّت مع أحدث إصدار رسمي.</string>
+    <string name="fw_current">المثبّت</string>
+    <string name="fw_latest">الأحدث</string>
+    <string name="fw_target">الهدف</string>
+    <string name="fw_model">الطراز</string>
+    <string name="fw_unknown">غير معروف</string>
+    <string name="fw_check">فحص التحديثات</string>
+    <string name="fw_checking">جارٍ الفحص…</string>
+    <string name="fw_up_to_date">النظام محدّث لآخر إصدار ✓</string>
+    <string name="fw_update_available">يتوفر OpenWrt %1$s</string>
+    <string name="fw_release_page">فتح منتقي البرامج الثابتة</string>
+
+    <string name="ob_subtitle">اتصل بالراوتر عبر ubus (LuCI RPC). تُخزَّن بيانات الدخول مشفّرة على جهازك.</string>
+    <string name="ob_ip">عنوان الراوتر</string>
+    <string name="ob_username">اسم المستخدم</string>
+    <string name="ob_password">كلمة المرور</string>
+    <string name="ob_preset">استخدام %1$s</string>
+    <string name="ob_show">إظهار</string>
+    <string name="ob_hide">إخفاء</string>
+    <string name="ob_connect">اتصال</string>
+    <string name="ob_connecting">جارٍ الاتصال…</string>
+    <string name="ob_failed">فشل الاتصال</string>
+
+    <string name="set_title">الإعدادات</string>
+    <string name="set_background_title">المراقبة في الخلفية</string>
+    <string name="set_monitoring">تفعيل المراقبة في الخلفية</string>
+    <string name="set_notify_new">تنبيه عند دخول جهاز جديد</string>
+    <string name="set_notify_offline">تنبيه عند انقطاع الراوتر</string>
+    <string name="set_notify_fw">تنبيه عند توفر تحديث للنظام</string>
+    <string name="set_interval">فاصل المراقبة</string>
+    <string name="set_interval_min">%1$d دقيقة</string>
+    <string name="set_connection_title">اتصال الراوتر</string>
+    <string name="set_forget">نسيان الراوتر</string>
+    <string name="set_about">حول التطبيق</string>
+    <string name="set_about_text">OpenWrt Manager Pro 1.0 — لوحة تحكم، خريطة أجهزة مع قاعدة بيانات المصنّعين (OUI)، تشخيص ذكي، فاحص تحديثات النظام وأحداث ubus اللحظية. يتطلب تفعيل uhttpd-mod-ubus على الراوتر.</string>
+
+    <string name="notif_channel_monitor">مراقبة الراوتر</string>
+    <string name="notif_channel_monitor_desc">تنبيهات انقطاع الراوتر أو دخول جهاز جديد للشبكة</string>
+    <string name="notif_channel_fw">تحديثات النظام</string>
+    <string name="notif_channel_fw_desc">تنبيه عند صدور إصدار OpenWrt جديد</string>
+    <string name="notif_offline_title">الراوتر غير متصل</string>
+    <string name="notif_offline_text">تعذر الاتصال بالراوتر. تحقق من الطاقة والشبكة.</string>
+    <string name="notif_new_title">جهاز جديد في الشبكة</string>
+    <string name="notif_new_text_one">الجهاز %1$s انضم للشبكة للتو</string>
+    <string name="notif_new_text_many">الجهاز %1$s و%2$d أجهزة أخرى انضمت للشبكة</string>
+    <string name="notif_fw_title">يتوفر OpenWrt %1$s</string>
+    <string name="notif_fw_text">المثبّت: %1$s ← الأحدث: %2$s. افتح التطبيق للترقية.</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cleartext is required to reach routers on http://192.168.x.x (no TLS by default).
+         HTTPS with self-signed certificates is also accepted (trust-all in debug builds of the client). -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</resources>

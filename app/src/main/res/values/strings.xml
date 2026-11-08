@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OpenWrt Manager Pro</string>
+
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_devices">Devices</string>
+    <string name="nav_diagnostics">Diagnostics</string>
+    <string name="nav_firmware">Firmware</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="refresh">Refresh</string>
+    <string name="error_generic">Connection error</string>
+
+    <string name="dash_uptime">Uptime</string>
+    <string name="dash_memory">Memory</string>
+    <string name="dash_temperature">Temperature</string>
+    <string name="dash_devices_online">Devices online</string>
+    <string name="dash_load">CPU load</string>
+    <string name="dash_load_value">1m %1$s · 5m %2$s · 15m %3$s</string>
+    <string name="dash_network">Network</string>
+    <string name="dash_status">Status</string>
+    <string name="dash_online">Online</string>
+    <string name="dash_offline">Offline</string>
+    <string name="dash_wan_ip">WAN IP</string>
+    <string name="dash_gateway">Gateway</string>
+    <string name="dash_dns">DNS</string>
+    <string name="dash_hostname">Hostname</string>
+    <string name="dash_kernel">Kernel</string>
+
+    <string name="devices_count">%1$d devices</string>
+    <string name="devices_all">All</string>
+    <string name="devices_wireless">Wireless</string>
+    <string name="devices_wired">Wired</string>
+    <string name="devices_empty">No devices found</string>
+    <string name="devices_unknown_host">Unknown device</string>
+    <string name="devices_unknown_vendor">Unknown vendor</string>
+
+    <string name="diag_title">Smart diagnostics</string>
+    <string name="diag_subtitle">Runs a full health check on the router: CPU, memory, storage, temperature, WAN, DNS, WiFi channels, mesh, security and logs.</string>
+    <string name="diag_run">Run diagnostics</string>
+    <string name="diag_running">Running…</string>
+    <string name="diag_score">Health score</string>
+    <string name="diag_not_run">Diagnostics not run yet</string>
+    <string name="diag_duration">Completed in %1$s s</string>
+    <string name="diag_check_cpu">CPU load</string>
+    <string name="diag_check_memory">Memory</string>
+    <string name="diag_check_storage">Storage</string>
+    <string name="diag_check_temperature">Temperature</string>
+    <string name="diag_check_wan">Internet (WAN)</string>
+    <string name="diag_check_dns">DNS resolution</string>
+    <string name="diag_check_wifi">WiFi channels</string>
+    <string name="diag_check_mesh">Mesh network</string>
+    <string name="diag_check_wifi_security">WiFi security</string>
+    <string name="diag_check_firewall">Firewall security</string>
+    <string name="diag_check_logs">System log scan</string>
+
+    <string name="fw_title">Firmware</string>
+    <string name="fw_subtitle">Compares your running OpenWrt version with the latest official release.</string>
+    <string name="fw_current">Installed</string>
+    <string name="fw_latest">Latest</string>
+    <string name="fw_target">Target</string>
+    <string name="fw_model">Model</string>
+    <string name="fw_unknown">unknown</string>
+    <string name="fw_check">Check for updates</string>
+    <string name="fw_checking">Checking…</string>
+    <string name="fw_up_to_date">Your firmware is up to date ✓</string>
+    <string name="fw_update_available">OpenWrt %1$s is available</string>
+    <string name="fw_release_page">Open firmware selector</string>
+
+    <string name="ob_subtitle">Connect to your OpenWrt router via ubus (LuCI RPC). Credentials are stored encrypted.</string>
+    <string name="ob_ip">Router address</string>
+    <string name="ob_username">Username</string>
+    <string name="ob_password">Password</string>
+    <string name="ob_preset">Use %1$s</string>
+    <string name="ob_show">Show</string>
+    <string name="ob_hide">Hide</string>
+    <string name="ob_connect">Connect</string>
+    <string name="ob_connecting">Connecting…</string>
+    <string name="ob_failed">Connection failed</string>
+
+    <string name="set_title">Settings</string>
+    <string name="set_background_title">Background monitoring</string>
+    <string name="set_monitoring">Enable background monitoring</string>
+    <string name="set_notify_new">Notify about new devices</string>
+    <string name="set_notify_offline">Notify when router is unreachable</string>
+    <string name="set_notify_fw">Notify about firmware updates</string>
+    <string name="set_interval">Monitor interval</string>
+    <string name="set_interval_min">%1$d min</string>
+    <string name="set_connection_title">Router connection</string>
+    <string name="set_forget">Forget router</string>
+    <string name="set_about">About</string>
+    <string name="set_about_text">OpenWrt Manager Pro 1.0 — dashboard, device map with OUI vendor lookup, smart diagnostics, firmware checker and real-time ubus events. Requires uhttpd-mod-ubus on the router.</string>
+
+    <string name="notif_channel_monitor">Router monitoring</string>
+    <string name="notif_channel_monitor_desc">Alerts when the router goes offline or a new device joins</string>
+    <string name="notif_channel_fw">Firmware updates</string>
+    <string name="notif_channel_fw_desc">Alerts when a new OpenWrt release is available</string>
+    <string name="notif_offline_title">Router unreachable</string>
+    <string name="notif_offline_text">Could not connect to your OpenWrt router. Check power and network.</string>
+    <string name="notif_new_title">New device on network</string>
+    <string name="notif_new_text_one">%1$s just joined your network</string>
+    <string name="notif_new_text_many">%1$s and %2$d more joined your network</string>
+    <string name="notif_fw_title">OpenWrt %1$s available</string>
+    <string name="notif_fw_text">Installed: %1$s → Latest: %2$s. Open the app for the firmware selector.</string>
+</resources>
